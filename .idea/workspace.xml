@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07c12f5f-fd84-4fdd-86ed-0dc41223e9e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/.github/workflows/cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/.github/workflows/cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/CODEOWNERS" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/CODEOWNERS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/requirements/req-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/requirements/req-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/atlas_i2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/atlas_i2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/sensors.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/sensors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/src/atlas_i2c/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/test_atlas_i2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/test_atlas_i2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/test_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/test_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/test_sensors.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tests/test_sensors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/asyncSensors/atlas_i2c/tox.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PLan5zItPhx46raScaqDHpoN9E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/brett/Documents/hackaday-buoy&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07c12f5f-fd84-4fdd-86ed-0dc41223e9e3" name="Changes" comment="" />
+      <created>1683238979908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683238979908</updated>
+      <workItem from="1683238981109" duration="1031000" />
+      <workItem from="1683240373127" duration="1022000" />
+      <workItem from="1683267919943" duration="1028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

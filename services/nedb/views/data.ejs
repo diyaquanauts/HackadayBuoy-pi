@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Data</title>
+</head>
+<body>
+  <h1>Data</h1>
+
+  <form action="/data" method="GET">
+    <label for="search">Search:</label>
+    <input type="text" id="search" name="search">
+    <button type="submit">Search</button>
+  </form>
+
+  <% if (data.length === 0) { %>
+    <p>No data found.</p>
+  <% } else { %>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>UTC Time</th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+          <th>Satellites</th>
+          <th>Fix</th>
+          <th>Depth (m)</th>
+          <th>Temperature (°C)</th>
+          <th>Light</th>
+          <th>DO (mg/L)</th>
+          <th>pH</th>
+          <th>Runtime (s)</th>
+          <th>Debug</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% data.forEach(function(item) { %>
+          <tr>
+            <td><%= item.id %></td>
+            <td><%= item.utc_time %></td>
+            <td><%= item.lat %></td>
+            <td><%= item.lon %></td>
+            <td><%= item.sats %></td>
+            <td><%= item.fix %></td>
+            <td><%= item.depth %></td>
+            <td><%= item.temperature %></td>
+            <td><%= item.light %></td>
+            <td><%= item.do %></td>
+            <td><%= item.ph %></td>
+            <td><%= item.runtime %></td>
+            <td>
+              <% if (item.debug.location) { %>Location <% } %>
+              <% if (item.debug.depth) { %>Depth <% } %>
+              <% if (item.debug.temperature) { %>Temperature <% } %>
+              <% if (item.debug.light) { %>Light <% } %>
+              <% if (item.debug.do) { %>DO <% } %>
+              <% if (item.debug.ph) { %>pH <% } %>
+            </td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  <% } %>
+
+</body>
+</html>
+

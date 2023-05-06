@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/asyncSensors/atlas_i2c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sensors/asyncSensors/atlas_i2c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/services/lcd/grove.py" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/services/seeed-ardupy-lcd1602" vcs="Git" />
+  </component>
+</project>
