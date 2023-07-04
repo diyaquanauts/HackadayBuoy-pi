@@ -51,7 +51,7 @@ class SecureHTTPRequestHandler(SimpleHTTPRequestHandler):
         self.wfile.write(b"Unauthorized")
 
 if __name__ == "__main__":
-    os.chdir("./")
+    os.chdir("../../")
     server_address = ("0.0.0.0", 8000)
     httpd = HTTPServer(server_address, SecureHTTPRequestHandler)
     httpd.serve_forever()
