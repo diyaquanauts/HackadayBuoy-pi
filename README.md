@@ -45,4 +45,8 @@ Currently tested & working sensors include:
 - TSL2591 Light Sensor
 
 Numerical data is stored in a server process which binds the captured data with a local NEDB database via a simple Node / Express app.  
+
+# Quick and dirty code review
+[![Video Thumbnail](https://img.youtube.com/vi/JbvnaNGlSuI/hqdefault.jpg)](https://youtu.be/JbvnaNGlSuI)
+
   
