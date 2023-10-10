@@ -1,7 +1,6 @@
 
 # HackadayBuoy-pi
-![Block Diagram](block-diagram.png)
-This Project is broken up into 3 sections for different buoy types.
+![Block Diagram](block-diagram.png)  
 
 At a high level, the buoy runs [tailscale](https://tailscale.com/) so that you can connect it when it running on its cellular modem connection. It also runs [cockpit](https://cockpit-project.org/) to allow easy management of the deployment and custom linux services.
 
