@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the target locations
-SERVICE_NAME="capture.service"
+SERVICE_NAME="hydrophone-capture.service"
 TARGET_DIR=$(pwd)
 SERVICE_DIR="/etc/systemd/system"
 
