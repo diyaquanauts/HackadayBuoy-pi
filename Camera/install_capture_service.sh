@@ -11,7 +11,7 @@ chmod +x $TARGET_DIR/capture.sh
 # Create the systemd service file
 sudo bash -c "cat > $SERVICE_DIR/$SERVICE_NAME" << EOL
 [Unit]
-Description=Audio Capture Service
+Description=Video Capture Service
 After=network.target
 
 [Service]
