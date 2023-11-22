@@ -1,0 +1,49 @@
+********* MONITOR #1 ***********
+  Bus Voltage    : 7.428 V
+  Bus Current    : 1078.504 mA
+  Supply Voltage : 7.634 V
+  Shunt voltage  : 161.530 mV
+  Power          : 8084.553 mW
+
+********* MONITOR #1 ***********
+  Bus Voltage    : 7.380 V
+  Bus Current    : 1434.862 mA
+  Supply Voltage : 7.607 V
+  Shunt voltage  : 214.030 mV
+  Power          : 10336.260 mW
+
+********* MONITOR #1 ***********
+  Bus Voltage    : 7.460 V
+  Bus Current    : 1209.821 mA
+  Supply Voltage : 7.648 V
+  Shunt voltage  : 183.590 mV
+  Power          : 9039.350 mW
+
+********* MONITOR #1 ***********
+  Bus Voltage    : 7.468 V
+  Bus Current    : 1273.171 mA
+  Supply Voltage : 7.641 V
+  Shunt voltage  : 187.210 mV
+  Power          : 11040.000 mW
+
+********* MONITOR #1 ***********
+  Bus Voltage    : 7.452 V
+  Bus Current    : 1020.943 mA
+  Supply Voltage : 7.636 V
+  Shunt voltage  : 151.840 mV
+  Power          : 7538.211 mW
+
+********* MONITOR #1 ***********
+  Bus Voltage    : 7.436 V
+  Bus Current    : 1269.333 mA
+  Supply Voltage : 7.601 V
+  Shunt voltage  : 163.040 mV
+  Power          : 8124.878 mW
+
+********* MONITOR #1 ***********
+  Bus Voltage    : 7.480 V
+  Bus Current    : 1082.211 mA
+  Supply Voltage : 7.621 V
+  Shunt voltage  : 152.210 mV
+  Power          : 7651.382 mW
+

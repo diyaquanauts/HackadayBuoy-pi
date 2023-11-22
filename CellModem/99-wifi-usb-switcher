@@ -1,0 +1,50 @@
+#!/bin/bash
+# Copy me to: /etc/NetworkManager/dispatcher.d/99-wifi-usb-switcher
+# after: sudo chmod +x /etc/NetworkManager/dispatcher.d/99-wifi-usb-switcher
+
+INTERFACE=$1
+ACTION=$2
+
+# Check if a network interface is available and has an IP address
+is_interface_available() {
+    ip link show "$1" >/dev/null 2>&1 && ip addr show "$1" | grep -q 'inet '
+}
+
+# Delete existing default route for a specific interface
+delete_existing_default_route() {
+    ip route del default dev "$1"
+}
+
+# Switch to USB modem
+switch_to_usb() {
+    if is_interface_available "usb0"; then
+        echo "Switching to USB (cellular)"
+        delete_existing_default_route "usb0"
+        delete_existing_default_route "wlan0"
+        ip route add default dev usb0 metric 100
+    else
+        echo "USB interface (usb0) is not available."
+    fi
+}
+
+# Switch to Wi-Fi
+switch_to_wifi() {
+    if is_interface_available "wlan0"; then
+        echo "Switching to WLAN (Wi-Fi)"
+        delete_existing_default_route "wlan0"
+        delete_existing_default_route "usb0"
+        ip route add default dev wlan0 metric 100
+    else
+        echo "Wi-Fi interface (wlan0) is not available."
+    fi
+}
+
+# Main logic
+if [[ "$ACTION" == "up" || "$ACTION" == "dhcp4-change" ]]; then
+    if [[ "$INTERFACE" == "wlan0" ]]; then
+        switch_to_wifi
+    elif [[ "$INTERFACE" == "usb0" ]]; then
+        switch_to_usb
+    fi
+fi
+

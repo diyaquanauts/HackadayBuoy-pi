@@ -9,7 +9,7 @@ fi
 
 # Set the alarm for 2 minutes from now
 echo "Setting alarm for 2 minutes from now..."
-if ! date '+%s' -d '+10 minutes' | sudo tee /sys/class/rtc/rtc0/wakealarm; then
+if ! date '+%s' -d '+420 minutes' | sudo tee /sys/class/rtc/rtc0/wakealarm; then
     echo "Failed to set alarm. Exiting."
     exit 1
 fi

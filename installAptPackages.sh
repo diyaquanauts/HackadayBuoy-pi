@@ -7,4 +7,5 @@ sudo apt-get install python3-pip
 sudo apt-get install alsa-utils
 sudo apt-get install jq
 sudo apt-get install sox
+sudo apt-get install gettext
 #sudo apt-get install cockpit

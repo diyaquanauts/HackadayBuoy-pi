@@ -1,0 +1,11 @@
+#!/bin/bash
+# /etc/ifplugd/action.d/wlan0-action
+
+if [ "$2" = "up" ]; then
+    # Lower the metric for wlan0 when it's in range
+    ip route add default dev wlan0 metric 200
+elif [ "$2" = "down" ]; then
+    # Increase the metric for wlan0 when it goes out of range
+    ip route del default dev wlan0
+fi
+

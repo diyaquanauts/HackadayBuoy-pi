@@ -1,0 +1,11 @@
+#!/bin/bash
+# /etc/ifplugd/action.d/usb0-action
+
+if [ "$2" = "up" ]; then
+    # Lower the metric for usb0 when it's connected
+    ip route add default dev usb0 metric 100
+elif [ "$2" = "down" ]; then
+    # Increase the metric for usb0 when it's disconnected
+    ip route del default dev usb0
+fi
+

@@ -56,8 +56,10 @@ do
     # Send an SMS with the new recording filename
     # gammu sendsms TEXT "+19252551045" -text "New recording started: $folder_name/$filename. The video stream is now being recorded."
 
-    yes | ffmpeg -f v4l2 -input_format mjpeg -i $device_id -frames:v 1 snapshot.jpg
-    ffmpeg -f v4l2 -input_format mjpeg -r 25 -s 1920x1080 -i $device_id -t $duration -c:v copy $folder_name/$filename
+    #yes | ffmpeg -f v4l2 -input_format mjpeg -i $device_id -frames:v 1 snapshot.jpg
+    yes | ffmpeg -f v4l2 -input_format mjpeg -i $device_id -frames:v 1 -update 1 snapshot.jpg
+    ffmpeg -f v4l2 -input_format mjpeg -r 25 -s 1920x1080 -i $device_id -t $duration -c:v libx264 -preset ultrafast -crf 23 $folder_name/${filename}.mp4
+    #ffmpeg -f v4l2 -input_format mjpeg -r 25 -s 1920x1080 -i $device_id -t $duration -c:v copy $folder_name/$filename
     #ffmpeg -f v4l2 -input_format mjpeg -r 24 -s 1920x1080 -i $device_id -t $duration -c:v copy $folder_name/$filename
     #timeout $duration ffmpeg -y -f v4l2 -input_format mjpeg -r 24 -s 1920x1080 -i $device_id -c:v copy "$folder_name/$filename" -vf "fps=1/2" -update 1 snapshot.jpg
     #ffmpeg -y -f v4l2 -input_format mjpeg -r 24 -s 1920x1080 -i $device_id -t $duration -c:v $folder_name/$filename -vf "fps=1/2" -update 1 snapshot.jpg
